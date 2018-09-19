@@ -1,0 +1,22 @@
+<article class="listing">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+
+  <img src="{{book.image}}" alt="image of book cover">
+  <small>View Larger</small>
+  </a>
+  <h3>{{book.title}}</h3>
+
+  <div class="detail author">
+    <span>Author:</span> {{book.author}}
+  </div>
+  <div class="detail genre">
+    <span>Genre:</span> {{book-genre book.category}}
+       {{book.genre}}
+  </div>
+  <div class="detail audience">
+    <span>Audience:</span> {{book.audience}}
+  </div>
+  <div class="detail rating">
+    <span>Rating:</span> {{book.rating}}
+  </div>
+</article>

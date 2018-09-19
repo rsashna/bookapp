@@ -1,0 +1,24 @@
+
+<div class="container">
+  <div class="menu">
+    {{#link-to "index"}}
+      <h1>
+        <em>The Right Read</em>
+      </h1>
+    {{/link-to}}
+    <div class="links">
+      {{#link-to "about" class="menu-about"}}
+        About
+      {{/link-to}}
+      {{#link-to "selecting" class="menu-contact"}}
+        How To
+      {{/link-to}}
+      {{#link-to "books" class="menu-contact"}}
+        Books
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+
+{{#genre-filter
+   filter=(action 'filterByGenre')
+   as |filteredResults|}}
+  <ul class="results">
+    {{#each filteredResults as |bookUnit|}}
+      <li>{{book-listing book=bookUnit}}</li>
+    {{/each}}
+  </ul>
+{{/genre-filter}}
+
+{{outlet}}
