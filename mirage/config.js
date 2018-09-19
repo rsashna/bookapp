@@ -40,7 +40,7 @@ export default function() {
           audience:'Teen',
           rating: 4.3,
           image: '/assets/images/endersgameimg.jpg',
-          description: 'Ender is a gifted intelligent young boy who is chosen to train for the space military. He faces being isolated from his family and other students and learns to think of new strategies to win \'games\''
+          description: 'Ender is a gifted intelligent young boy who is chosen to be trained for the space military. He faces being isolated from his family and other students and learns to think of new strategies to win \'games\''
       }
     },{
       type: 'books',

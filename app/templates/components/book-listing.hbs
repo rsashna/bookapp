@@ -4,7 +4,10 @@
   <img src="{{book.image}}" alt="image of book cover">
   <small>View Larger</small>
   </a>
-  <h3>{{book.title}}</h3>
+  <!-- <h3>{{book.title}}</h3> -->
+
+  <h3>{{#link-to "books.show" book class=book.id}}{{book.title}}{{/link-to}}</h3>
+
 
   <div class="detail author">
     <span>Author:</span> {{book.author}}
